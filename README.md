@@ -1,7 +1,7 @@
 # LED-Fireworks
 Firework effect with WS2812b LED and a MCU
 
-![alt text](https://github.com/samteck/LED-Fireworks/blob/main/media/2.jpeg "Spark with blue color")
+![alt text](https://github.com/samteck/LED-Fireworks/blob/main/media/2.jpeg  | width=500 "Spark with blue color")
 
 This project uses [FastLED](http://fastled.io/ "FastLED Homepage") library to control the LED strip.
 

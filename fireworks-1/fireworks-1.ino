@@ -18,10 +18,16 @@ void loop() {
   burst(255, 0, 0);
   flare(0, 255, 255);
   burst(0, 255, 255);
-  flare(255, 0, 150);
-  burst(255, 0, 150);
+  flare(255, 0, 255);
+  burst(255, 0, 255);
   flare(255, 250, 0);
   burst(255, 250, 0);
+  flare(50, 255, 255);
+  burst(50, 255, 255);
+  flare(255, 50, 150);
+  burst(255, 50, 150);
+  flare(255, 250, 50);
+  burst(255, 250, 50);
 }
 
 void flare(int a, int b, int c) {
