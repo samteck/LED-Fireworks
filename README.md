@@ -1,7 +1,9 @@
 # LED-Fireworks
 Firework effect with WS2812b LED and a MCU
 
-![alt text](https://github.com/samteck/LED-Fireworks/blob/main/media/2.jpeg  | width=500 "Spark with blue color")
+<p align="center">
+<img src="https://github.com/samteck/LED-Fireworks/blob/main/media/2.jpeg" width="500">
+</p>
 
 This project uses [FastLED](http://fastled.io/ "FastLED Homepage") library to control the LED strip.
 
@@ -13,7 +15,9 @@ This project uses [FastLED](http://fastled.io/ "FastLED Homepage") library to co
 
 Each LED trims out the first 3 bytes of data (RGB values) from the byte stream and sends the rest of stream to next LED.
 
-![alt text](https://github.com/samteck/LED-Fireworks/blob/main/media/WS2812B-RGB-LED-Strip.jpg "Each LED WS2812b")
+<p align="center">
+<img src="https://github.com/samteck/LED-Fireworks/blob/main/media/WS2812B-RGB-LED-Strip.jpg" width="500">
+</p>
 
 ## Power Requirements
 The WS2812b LEDs runs on 5V and require max 60mA of current (20mA, 20mA, 20mA each for Red, Green and Blue)
@@ -25,6 +29,6 @@ Physically the flare is made up of 1 row of 90 LEDs and the spark is made up of 
 
 Logically flare is an array of 90 LEDs and spark is an Array of 30 LEDs (duplicated over 6 rows) and Tail of the flare and spark runs few LEDs in back with decresed intensity
 
-![alt text](https://github.com/samteck/LED-Fireworks/blob/main/media/LAYOUT-LED-PARALLEL.png "parallel data feed")
+<img src="https://github.com/samteck/LED-Fireworks/blob/main/media/LAYOUT-LED-PARALLEL.png" width="500">
 
-![alt text](https://github.com/samteck/LED-Fireworks/blob/main/media/1.jpeg "real setup")
+<img src="https://github.com/samteck/LED-Fireworks/blob/main/media/1.jpeg" width="500">
